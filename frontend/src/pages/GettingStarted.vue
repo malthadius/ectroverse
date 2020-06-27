@@ -2,9 +2,11 @@
     <div id="Getting Started">
         <home-logo/>
         <DisplayBox title="Getting started in the galaxy of Ectroverse">
-            <div slot="content">
-                This page is a basic guide to new players on how to get started.<br>It is important to read this to get
-                the best possible experience when first playing!<br><b>Creating an account:</b><br><a
+            <div class="getting_started_content" slot="content">
+                <div style="text-align: center">This page is a basic guide to new players on how to get started.
+                <br>It is important to read this to get the best possible experience when first playing!<br>
+                    </div>
+                <b>Creating an account:</b><br><a
                     href="#a0">0. Registering the account.</a><br><a href="#a1">1. The user name and faction
                 name.</a><br><a href="#a2">2. Joining an empire.</a><br><a href="#a3">3. Choosing your race.</a><br><a
                     href="#a4">4. Completion and logging in.</a><br><br><br><b>Playing the game:</b><br><a href="#b0">0.
@@ -14,7 +16,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Creating an account">
-            <div slot="content">
+            <div class="getting_started_content" slot="content">
                 <br><a name="a0"><b><i>0. Registering the account.</i></b></a><br>The great thing about Ectroverse is
                 that the signup is simple. You won't need to input your e-mail address and no other activation is
                 required.<br><br><a name="a1"><b><i>1. The user name and faction name.</i></b></a><br>Your user name is
@@ -35,7 +37,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Playing the game">
-            <div slot="content">
+            <div class="getting_started_content" slot="content">
                 <br><a name="b0"><b><i>0. Resources &amp; Buildings.</i></b></a><br>Your main concern is growth. You
                 need to spend your resources by making resources.<br>How do you do that? Simple. Build buildings on your
                 planets.<br>There are 4 resources in the galaxy. Energy, Minerals, Crystal and Ectrolium. <br>Most
@@ -52,7 +54,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Tips">
-            <div slot="content">
+            <div class="getting_started_content" slot="content">
                 <br><a name="c0"><b><i>0. Map generation</i></b></a><br>The galaxy map is the place where you'll find
                 planets to explore and conquer... But it is easy to lose your way and location.<br>Luckily you can
                 generate a map using the Generation page.<br>You can filter away planets that are already owned, that
@@ -82,4 +84,10 @@
 </script>
 
 <style scoped>
+
+    .getting_started_content{
+        color:#FFFFFF;
+        font-weight: normal;
+        text-align: left;
+    }
 </style>

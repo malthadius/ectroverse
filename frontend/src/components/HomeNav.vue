@@ -13,7 +13,11 @@
                     |
                     <router-link class="nav_item" to="/register">Register</router-link>
                     |
-                    <router-link class="nav_item" to="/forum">Forums</router-link>
+                    <router-link class="nav_item"
+                                 :disabled=true
+                                 :event="''"
+                                 :style="'cursor: default'"
+                                 to="/forum">Forums</router-link>
                     |
                     <router-link class="nav_item" to="/faq">FAQ</router-link>
                     |
@@ -21,9 +25,17 @@
                     |
                     <router-link class="nav_item" to="/getting_started">Getting Started</router-link>
                     |
-                    <router-link class="nav_item" to="/hall_of_fame">Hall Of Fame</router-link>
+                    <router-link class="nav_item"
+                                 :disabled=true
+                                 :event="''"
+                                 :style="'cursor: default'"
+                                 to="/hall_of_fame">Hall Of Fame</router-link>
                     |
-                    <router-link class="nav_item" to="/server_status">Server Status</router-link>
+                    <router-link class="nav_item"
+                                 :disabled=true
+                                 :event="''"
+                                 :style="'cursor: default'"
+                                 to="/server_status">Server Status</router-link>
                 </b>
             </td>
         </tr>

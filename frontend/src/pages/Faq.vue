@@ -2,7 +2,7 @@
     <div id="faq">
         <home-logo/>
         <DisplayBox title="Frequently Asked Questions">
-            <div slot="content">
+            <div class="faq_content" slot="content">
                 <br>
                 <b>About the NEctroverse project</b>
                 <br>
@@ -56,7 +56,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="About the NEctroverse project">
-            <div slot="content">
+            <div class="faq_content" slot="content">
                 <br>
                 <a name="a0"><b><i>0. So, what is NEctroverse?</i></b></a>
                 <br>
@@ -140,7 +140,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Questions about gameplay">
-            <div slot="content">
+            <div class="faq_content" slot="content">
 
                 <br>
                 <a name="b0"><b><i>0. Where is the guide for the game?</i></b></a>
@@ -172,7 +172,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Questions about features">
-            <div slot="content">
+            <div class="faq_content" slot="content">
                 <br>
                 <a name="c0"><b><i>0. How come the feature xyz is not yet implemented? When will it be?</i></b></a>
                 <br>
@@ -205,7 +205,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Problems encountered">
-            <div slot="content">
+            <div class="faq_content" slot="content">
                 <br>
                 <a name="d0"><b><i>0. Resources are not up-up-date, time does not change, fleets don't get sent, etc....
                     help!</i></b></a>
@@ -221,7 +221,7 @@
             </div>
         </DisplayBox>
         <DisplayBox title="Other">
-            <div slot="content">
+            <div class="faq_content" slot="content">
                 <br>
                 <a name="e0"><b><i>0. Why are you counting everything from zero? Even the FAQ questions!</i></b></a>
                 <br>
@@ -251,5 +251,13 @@
 <style scoped>
     #faq{
         position:relative;
+        text-align: left;
+        padding: 5px;
+        margin:10px;
+    }
+    .faq_content{
+        color:#FFFFFF;
+        font-weight: normal;
+        text-align: left;
     }
 </style>
