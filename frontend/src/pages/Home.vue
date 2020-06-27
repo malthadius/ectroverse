@@ -2,8 +2,7 @@
     <div id="home">
         <home-logo/>
         <div id="home_content">
-            <div id="server_notifications">
-            </div>
+            <NotificationList/>
             <div id="login_and_adverts">
                 <login/>
             </div>
@@ -14,23 +13,26 @@
 <script>
     import Login from '../components/Login.vue'
     import HomeLogo from '../components/HomeLogo'
+    import NotificationList from "../components/NotificationList";
+
     export default {
         name: "Home",
         components: {
+            NotificationList,
             HomeLogo,
             Login,
-        }
+        },
     }
 </script>
 
 <style scoped>
-    #home{
+    #home {
         display: flex;
         flex-direction: column;
         align-items: center; /* align vertical */
         height: 100%;
         width: 100%;
-        min-width:800px;
+        min-width: 800px;
     }
 
     #home_content {
@@ -40,15 +42,10 @@
         width: 100%;
     }
 
-    #server_notifications {
+    #login_and_adverts {
         display: flex;
         flex-direction: column;
         flex: auto;
-    }
-
-    #login_and_adverts{
-        display: flex;
-        flex-direction: column;
-        flex: auto;
+        max-width: 30%;
     }
 </style>
