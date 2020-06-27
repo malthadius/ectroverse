@@ -10,6 +10,7 @@
 <style>
   body {
     background-image: url('./assets/background.gif');
+    color: #FFFFFF;
   }
   body, td {
     font-size: 12px;

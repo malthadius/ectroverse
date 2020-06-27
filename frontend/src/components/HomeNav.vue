@@ -9,19 +9,21 @@
             </td>
             <td>
                 <b>
-                    <a class="nav_item" href="register">Register</a>
+                    <router-link class="nav_item" to="/">Main</router-link>
                     |
-                    <a class="nav_item" href="forum">Forums</a>
+                    <router-link class="nav_item" to="/register">Register</router-link>
                     |
-                    <a class="nav_item" href="faq">Faq</a>
+                    <router-link class="nav_item" to="/forum">Forums</router-link>
                     |
-                    <a class="nav_item" href="guide">Guide</a>
+                    <router-link class="nav_item" to="/faq">FAQ</router-link>
                     |
-                    <a class="nav_item" href="getting_started">Getting Started</a>
+                    <router-link class="nav_item" to="/guide">Guide</router-link>
                     |
-                    <a class="nav_item" href="hall_of_fame">Hall of fame</a>
+                    <router-link class="nav_item" to="/getting_started">Getting Started</router-link>
                     |
-                    <a class="nav_item" href="status">Server</a>
+                    <router-link class="nav_item" to="/hall_of_fame">Hall Of Fame</router-link>
+                    |
+                    <router-link class="nav_item" to="/server_status">Server Status</router-link>
                 </b>
             </td>
         </tr>
