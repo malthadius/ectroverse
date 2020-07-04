@@ -35,9 +35,9 @@
                 <input type="text" name="search" size="8" value="">
                 <input type="submit" size="2" value="OK">
             </form>
-            <router-link id="discord" to="Discord">Discord</router-link>
+            <a id="discord" href="https://discord.gg/8Pkpqtd?2fix">Discord</a>
             <router-link to="Guide">Guide</router-link>
-            <router-link to="Facebook">Facebook</router-link>
+            <a href="https://web.facebook.com/groups/803616616363658?2fix">Facebook</a>
         </div>
         <div id="side_nav_bottom"></div>
         <div id="side_nav_bottom_logo"></div>
