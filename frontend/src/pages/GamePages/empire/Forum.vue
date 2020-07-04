@@ -1,7 +1,7 @@
 <template>
-    <GamePage id="head_quarters">
-        <div id="hq_content" slot="content">
-            <display-box title="Headquarters">
+    <GamePage id="forum">
+        <div id="forum_content" slot="content">
+            <display-box title="Forum">
             </display-box>
         </div>
     </GamePage>
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-    import DisplayBox from "../components/DisplayBox";
-    import GamePage from "../components/GamePage";
+    import DisplayBox from "../../../components/DisplayBox";
+    import GamePage from "../../../components/GamePage";
 
     export default {
-        name: "Headquarters",
+        name: "Forum",
         components: {
             GamePage,
             DisplayBox,
@@ -22,12 +22,12 @@
 </script>
 
 <style scoped>
-    #head_quarters {
+    #forum {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
-    #hq_content{
+    #forum_content{
         width: 100%;
     }
 </style>
