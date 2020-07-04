@@ -60,13 +60,15 @@
     .display_box_header_center {
         background-image: url('../assets/display_box_images/i27.jpg');
         flex-grow: 1;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .display_box_header_center_content {
-        align-items: flex-end;
-        display: flex;
-        height: 20px;
         font-size: 13px;
+        color: #C0D0D8;
     }
 
     .display_box_header_right {
