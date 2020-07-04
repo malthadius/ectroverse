@@ -6,6 +6,7 @@ import RegisterDetails from '../pages/RegisterDetails';
 import Faq from '../pages/Faq';
 import Guide from '../pages/Guide';
 import GettingStarted from "../pages/GettingStarted";
+import Headquarters from "../pages/Headquarters";
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router( {
       path: '/getting_started',
       name: 'Getting Started',
       component: GettingStarted
+    },
+    {
+      path: '/headquarters',
+      name: 'Headquarters',
+      component: Headquarters
     }
   ]
 })
