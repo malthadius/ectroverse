@@ -29,6 +29,7 @@ import FactionRankings from "../pages/GamePages/FactionRankings";
 import EmpireRankings from "../pages/GamePages/EmpireRankings";
 import Forums from "../pages/GamePages/Forums";
 import Account from "../pages/GamePages/Account";
+import FactionReports from "../pages/GamePages/FactionReports";
 
 Vue.use(Router)
 
@@ -178,6 +179,11 @@ export default new Router( {
       path: '/account',
       name: 'Account',
       component: Account
+    },
+    {
+      path: '/faction_reports',
+      name: 'Faction Reports',
+      component: FactionReports
     }
   ]
 })
